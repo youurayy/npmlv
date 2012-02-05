@@ -1,0 +1,27 @@
+{
+	"author": "Juraj Vitko (ypocat.com)",
+	"name": "npmlv",
+	"description": "List module versions in your project in format easy to copy and paste to your package.json.",
+	"keywords": [ "utility", "functions", "npm", "list", "module", "versions" ],
+	"version": "0.0.1",
+	"homepage": "http://github.com/ypocat/npmlv",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ypocat/npmlv.git"
+	},
+	"main": "./lib/npmlv.js",
+	"directories": {
+		"lib": "./lib"
+	},
+	"bin": {
+		"npmlv": "./bin/npmlv"
+	},
+	"engines": {
+		"node": ">= 0.4.0"
+	},
+	"dependencies": {
+		"commander": "*"
+	},
+	"devDependencies": {
+	}
+}
