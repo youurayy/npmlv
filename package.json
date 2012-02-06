@@ -3,7 +3,7 @@
 	"name": "npmlv",
 	"description": "List module versions in your project in format easy to copy and paste to your package.json.",
 	"keywords": [ "utility", "functions", "npm", "list", "module", "versions" ],
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"homepage": "http://github.com/ypocat/npmlv",
 	"repository": {
 		"type": "git",
@@ -23,5 +23,8 @@
 		"commander": "*"
 	},
 	"devDependencies": {
-	}
+	},
+	"licenses": [
+		{  "type" : "MIT", "url" : "https://raw.github.com/ypocat/npmlv/master/LICENSE" }
+	]
 }
