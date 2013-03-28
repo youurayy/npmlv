@@ -27,6 +27,20 @@ Prints:
 }
 ```
 
+To print dependencies for floating patch versions:
+
+	npmlv -t
+
+Prints:
+
+```js
+{
+    "async-mini": "~0.1.0",
+    "laeh2": "~0.2.0",
+    "mongodb": "~0.9.7",
+    "underscore": "~1.1.7"
+}
+```
 To print dependencies on exact and higher versions (optimistic):
 
 	npmlv -n
