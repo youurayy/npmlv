@@ -70,3 +70,18 @@ Prints:
     "underscore": "*"
 }
 ```
+
+To keep any urls defined as they are in your package.json. May be combined with other flags:
+
+	npmlv -k [-t]
+
+Prints:
+
+```js
+{
+    "async-mini": "~0.1.0",
+    "laeh2": "~0.2.0",
+    "mongodb": "git://github.com/mongodb/node-mongodb-native.git",
+    "underscore": "~1.1.7"
+}
+```
